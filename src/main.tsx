@@ -5,6 +5,7 @@ import { PrimeReactProvider } from "primereact/api";
 
 //theme
 import "primereact/resources/themes/lara-light-indigo/theme.css";
+import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
