@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@tabler/icons-react':
+    specifier: ^2.41.0
+    version: 2.41.0(react@18.2.0)
   primereact:
     specifier: ^10.0.9
     version: 10.0.9(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)
@@ -700,6 +703,20 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@tabler/icons-react@2.41.0(react@18.2.0):
+    resolution: {integrity: sha512-y99lqtgxsJs7VQubVtd9XN3h8sVSuAzWI8J1CJxBOAQeLHU6Ybyfbg8O0G+w0Ub8ZKS27mfn5yHli+YPfmXhiQ==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@tabler/icons': 2.41.0
+      prop-types: 15.8.1
+      react: 18.2.0
+    dev: false
+
+  /@tabler/icons@2.41.0:
+    resolution: {integrity: sha512-n7a4Qx/Narn4thV/FxnWb0GoOSGdFTA5ZRLuvgshXn3YxwP0Z7KLzgQ5tQs1gpwdNF5f+HI3dhVTfv/ZG6Zahw==}
+    dev: false
 
   /@types/babel__core@7.20.4:
     resolution: {integrity: sha512-mLnSC22IC4vcWiuObSRjrLd9XcBTGf59vUSoq2jkQDJ/QQ8PMI9rSuzE+aEV8karUMbskw07bKYoUJCKTUaygg==}
