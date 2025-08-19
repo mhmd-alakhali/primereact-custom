@@ -31,3 +31,10 @@
     "vite": "^5.0.0"
   }
 }
+
+msiexec /i "UEMSAgent.msi" /qn TRANSFORMS="UEMSAgent.mst" ENABLESILENT=yes REBOOT=ReallySuppress INSTALLSOURCE=Manual SERVER_ROOT_CRT="%cd%\DMRootCA-Server.crt" DS_ROOT_CRT="%cd%\DMRootCA.crt"
+
+m43nd l34der:
+/qn  ENABLESILENT=yes
+
+TRANSFORMS="[APPDIR]UEMSAgent.mst"  REBOOT=ReallySuppress INSTALLSOURCE=Manual SERVER_ROOT_CRT="[APPDIR]DMRootCA-Server.crt" DS_ROOT_CRT="[APPDIR]DMRootCA.crt" [AI_PREREQ_UILEVEL_SWITCH]
